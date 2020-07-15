@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4D9F422C-35D2-4F97-B009-80B330F603F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DungeonsAndDragonsApi", "src\DungeonsAndDragonsApi\DungeonsAndDragonsApi.csproj", "{A9F53283-227B-4885-B55A-A3CC722EAC54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DungeonsAndDragonsApi.AC", "src\DungeonsAndDragonsApi.AC\DungeonsAndDragonsApi.AC.csproj", "{0244F37A-7AD7-4C64-9B37-F1005A87D936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonsAndDragonsApi.Core", "src\DungeonsAndDragonsApi.Core\DungeonsAndDragonsApi.Core.csproj", "{DFC45128-66DC-459F-AF0D-4F6D224BEACA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9F53283-227B-4885-B55A-A3CC722EAC54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F53283-227B-4885-B55A-A3CC722EAC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F53283-227B-4885-B55A-A3CC722EAC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F53283-227B-4885-B55A-A3CC722EAC54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0244F37A-7AD7-4C64-9B37-F1005A87D936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0244F37A-7AD7-4C64-9B37-F1005A87D936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0244F37A-7AD7-4C64-9B37-F1005A87D936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0244F37A-7AD7-4C64-9B37-F1005A87D936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC45128-66DC-459F-AF0D-4F6D224BEACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC45128-66DC-459F-AF0D-4F6D224BEACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC45128-66DC-459F-AF0D-4F6D224BEACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC45128-66DC-459F-AF0D-4F6D224BEACA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9F53283-227B-4885-B55A-A3CC722EAC54} = {4D9F422C-35D2-4F97-B009-80B330F603F9}
+		{0244F37A-7AD7-4C64-9B37-F1005A87D936} = {4D9F422C-35D2-4F97-B009-80B330F603F9}
+		{DFC45128-66DC-459F-AF0D-4F6D224BEACA} = {4D9F422C-35D2-4F97-B009-80B330F603F9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5473E520-5D3C-42BB-A9E4-C8EED6A5C976}
+	EndGlobalSection
+EndGlobal
